@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/bg.jpg");
+}
+
+
+.container {
+    display: flex;
+    position: relative;
+    width: 930px;
+
+}
+
+.craze {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 930px;
+    height: 400px;
+    position: relative;
+}
+
+body > header > div > div.napisy {
+    width: 400px;
+
+}
+
+body > header > div > div.napisy > div {
+    position: relative;
+}
+
+body > header > div > div.napisy > div > img {
+    width: 150px;
+    position: absolute;
+    top: -80px;
+    left: -13px;
+}
+
+body > header > div > div.napisy > p {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+
+
+body > header > div > div.obrazek2 > img {
+    width: 300px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+
+
+}
+
+body > main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+body > main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+
+body > main > .content {
+width: 930px;
+    color: gray;
+    margin-top: 15px;
+}
+
+body > main > div > div.up {
+    display: flex;
+    flex-direction: column;
+}
+
+body > main > div > p {
+    text-align: center;
+}
+
+body > main > div > div {
+    display: flex;
+}
+
+body > main > div > div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #232323;
+    margin-bottom: 20px;
+}
+
+body > main > div > div.up > p {
+    color: #838383;
+    font-size: 18px;
+}
+
+body > main > div > div.columns h2 {
+    font-size: 24px;
+}
+
+body > main > div > div.columns p {
+    font-size: 16px;
+    color: #838383;
+}
+
+body > main > div > div > div.column1 {
+    border-right: 2px solid #838383;
+    padding-right: 25px;
+}
+
+body > main > div > div > div.column2 {
+    border-right: 2px solid #838383;
+    padding: 0 25px;
+}
+
+body > main > div > div.columns > div.column3 {
+    padding-left: 25px;
+}
